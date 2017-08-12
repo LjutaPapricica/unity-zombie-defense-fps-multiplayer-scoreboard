@@ -1,0 +1,36 @@
+.view-login {
+    width: 1100px;
+    margin: 0 auto;
+
+    > h1 {
+        font-size: 24px;
+        text-align: center;
+        margin: 32px 0 12px 0;
+        color: #444;
+    }
+    > h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 32px;
+        color: #444;
+    }
+
+    > .loginForm {
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #444;
+        border-radius: 20px;
+
+        > label {
+            display: block;
+            margin-bottom: 4px;
+            color: #444;
+        }
+        > input[type=text], > input[type=password] {
+            display: block;
+            width: 100%;
+            margin-bottom: 8px;
+        }
+    }
+}

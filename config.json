@@ -1,0 +1,5 @@
+{
+	"environment": "production",
+	"port": 5011,
+	"proxyPort": 5021
+}

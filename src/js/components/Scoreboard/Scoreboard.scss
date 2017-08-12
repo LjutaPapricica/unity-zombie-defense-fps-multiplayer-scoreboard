@@ -1,0 +1,92 @@
+.view-scoreboard {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+
+    > .ucp {
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: right;
+
+        > .ucp__name {
+            margin-bottom: 5px;
+            font-size: 12px;
+            color: #444;
+        }
+    }
+
+    > h1 {
+        font-size: 24px;
+        text-align: center;
+        margin: 32px 0 12px 0;
+        color: #444;
+    }
+
+    > .userInfoGroup {
+        margin: 32px 0;
+        border: 1px solid #444;
+        padding: 10px;
+        color: #444;
+
+        > .userInfoGroup__title {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+        > .userInfoGroup__id, > .userInfoGroup__level, > .userInfoGroup__totalPlays, > .userInfoGroup__spentCash {
+            font-size: 12px;
+            margin: 4px 0 8px 0;
+        }
+    }
+
+    > .killsGroup {
+        margin: 32px 0;
+        border: 1px solid #444;
+        padding: 10px;
+        color: #444;
+
+        > .killsGroup__title {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        > table {
+            margin-top: 12px;
+            width: 100%;
+            border-collapse: collapse;
+
+            th, td {
+                color: #444;
+                text-align: center;
+                font-size: 12px;
+                padding: 10px;
+                border: 1px solid #eee;
+            }
+        }
+
+        .killsGroup__favorite {
+            font-size: 12px;
+            color: #444;
+            margin-top: 24px;
+        }
+    }
+
+    > .playerRanks {
+        margin: 32px 0;
+        border: 1px solid #444;
+        padding: 10px;
+        color: #444;   
+
+        > .playerRanks__title {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+        > .playerRanks__list {
+            list-style-position: inside;
+
+            > li {
+                font-size: 12px;
+            }
+        }
+    }
+}

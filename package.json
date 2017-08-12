@@ -1,0 +1,61 @@
+{
+  "name": "unity-zombie-defense-fps-coop-scoreboard",
+  "version": "1.0.0",
+  "description": "Web Scoreboard for Unity Zombie Defense FPS Co-op Example",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test/.setup.js test/**/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rico345100/unity-zombie-defense-fps-multiplayer-scoreboard"
+  },
+  "keywords": [
+    "react",
+    "browserify",
+    "gulp"
+  ],
+  "author": ".modernator",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.22.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "babel-plugin-transform-regenerator": "^6.22.0",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-register": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.6",
+    "browserify": "^13.3.0",
+    "connected-react-router": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "merge-stream": "^1.0.1",
+    "persistify": "^1.1.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.1.2",
+    "redux": "^3.7.2",
+    "rimraf": "^2.6.1",
+    "scssify": "^2.2.1",
+    "vinyl-source-stream": "^1.1.0",
+    "yargs": "^6.6.0"
+  },
+  "dependencies": {
+    "express": "^4.15.0",
+    "express-history-api-fallback": "^2.2.1"
+  }
+}
