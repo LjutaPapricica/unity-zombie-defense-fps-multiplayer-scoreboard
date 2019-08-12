@@ -40,3 +40,10 @@ $ node server
 ## See Also
 - [Game Client](https://github.com/rico345100/unity-zombie-defense-fps-multiplayer-example)
 - [Score Server](https://github.com/rico345100/unity-zombie-defense-fps-multiplayer-score-server)
+
+## Donate me
+All my tutorials and projects are made for help people who want to learn. Your donation make me keep doing this :)
+
+You can support my projects by donating me:
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PVXTU5FJNBLDS)
